@@ -27,8 +27,8 @@ baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Jekyll Garden # Change this 
-content: Obsidian ready Jekyll Theme
+heading: juanalbglz.work # Change this 
+content: Personal thoughts and notes
 copyright:  
   year: © 2022
   msg: Contents under CC-BY-NC 
@@ -69,6 +69,12 @@ collections:
     notes:
       output: true
       permalink: /note/:title
+    lists:
+      output: true
+      permalink: /list/:title
+    blog:
+      output: true
+      permalink: /blog/:title
 
 markdown: kramdown
 
