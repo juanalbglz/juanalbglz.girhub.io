@@ -33,7 +33,7 @@ copyright:
   year: © 2022
   msg: Contents under CC-BY-NC 
 
-# Set title and content for private & broken link tooltop
+# Set title and content for private & broken link tooltip
 privatelinks:
   title: Private or Broken Links
   msg: The page you're looking for is either not available or private!
