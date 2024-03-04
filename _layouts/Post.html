@@ -31,16 +31,18 @@
 
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Hiran Venugopalan" property="og:site_name" />
-    <meta
-        content="Product and Type Designer | UI UX | Design Mentoring"
+    <meta content="juanalbglz.work" property="og:site_name" />
+    <meta content="Notes and thoughts"
         property="og:description">
     <meta content="{{ site.url }}/about/" property="article:author">
     <meta property="og:image" content="../assets/img/OGImg.png">
+    <link rel="preload" href="/assets/fonts/IBMPlexSans-Italic.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/IBMPlexSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/IBMPlexSans-SemiBoldItalic.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
     <meta content="article" property="og:type">
@@ -51,7 +53,6 @@
     {%- endif -%}
 
     <title>{{page.title}} - {{site.heading}}</title>
-    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
     <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
