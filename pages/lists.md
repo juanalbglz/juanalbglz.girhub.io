@@ -1,8 +1,8 @@
 ---
 layout: Post
-permalink: /lists
-title: List of Lists
-feedformat: row
+permalink: /notes
+feedformat: card
+title: Listas
 ---
 
-List of all list!
+Lista de listas
