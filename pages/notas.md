@@ -1,8 +1,8 @@
 ---
 layout: Post
-permalink: /notes
+permalink: /notas
 feedformat: card
-title: Notes
+title: Notas
 ---
 
 Listado de notas públicas
